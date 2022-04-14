@@ -9,14 +9,16 @@ repositories {
 def junitVersion = "5.8.2",
     restassuredVersion = "5.0.1",
     slf4jVersion = "1.7.36",
-    assertjVersion = "3.22.0"
+    assertjVersion = "3.22.0",
+    jsoupVersion = "1.14.3"
 
 dependencies {
     testImplementation(
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "io.rest-assured:rest-assured:$restassuredVersion",
             "org.slf4j:slf4j-simple:$slf4jVersion",
-            "org.assertj:assertj-core:$assertjVersion"
+            "org.assertj:assertj-core:$assertjVersion",
+            "org.jsoup:jsoup:$jsoupVersion"
     )
 }
 
